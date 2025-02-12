@@ -71,6 +71,11 @@ body {
     z-index: -1; /* white bg and -1 of z-index to make the the full page overlay cover up the body bg image and it sits behind all contents*/
 }
 
+a.category-badge > span.badge:hover {
+    background: #212529 !important;
+    color: #fff !important;
+}
+
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
